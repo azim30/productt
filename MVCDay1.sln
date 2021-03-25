@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorExamples", "RazorExamples\RazorExamples.csproj", "{D6AC771D-7A46-4910-BDF8-99AC6A3A497A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegFormMVC", "RegFormMVC\RegFormMVC.csproj", "{6B6E6F9D-5D36-4A8A-949E-DA0059C8AF15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6AC771D-7A46-4910-BDF8-99AC6A3A497A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6AC771D-7A46-4910-BDF8-99AC6A3A497A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6AC771D-7A46-4910-BDF8-99AC6A3A497A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6AC771D-7A46-4910-BDF8-99AC6A3A497A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B6E6F9D-5D36-4A8A-949E-DA0059C8AF15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B6E6F9D-5D36-4A8A-949E-DA0059C8AF15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B6E6F9D-5D36-4A8A-949E-DA0059C8AF15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B6E6F9D-5D36-4A8A-949E-DA0059C8AF15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {445EA076-806D-42CB-A78E-B8E71D45427F}
+	EndGlobalSection
+EndGlobal
