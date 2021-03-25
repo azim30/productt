@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewBag.Title = "product";
+}
+
+<h2>Product</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+<table border="1" style="background-color:aqua">
+    
+    <tr>
+        <td>Enter ProductName </td>
+        <td>@Html.TextBox("txtproname")</td>
+    </tr>
+    <tr>
+        <td>Enter ProductDesc </td>
+        <td>@Html.TextBox("desc")</td>
+    </tr>
+    <tr>
+        <td>Enter Manufacturer </td>
+        <td>@Html.TextBox("man")</td>
+    </tr>
+    <tr>
+        <td>Enter Price </td>
+        <td>
+            <input type="number" name="txtpri" />
+        </td>
+    </tr>
+    <tr>
+        <td>Enter Category </td>
+        <td>
+            @Html.DropDownList("txtcat", new List<SelectListItem> {
+            new SelectListItem{ Text="Mobile and Tablets",Value="MT"},
+            new SelectListItem{ Text="Laptop",Value="Lap"},
+            new SelectListItem{ Text="TV",Value="TV"}
+            })
+        </td>
+    </tr>
+    
+
+    <tr>
+        <td><input type="submit" value="New Registration" /></td>
+        <td><input type="reset" value="Cancel" /></td>
+    </tr>
+</table>
+}
+<div>
+    @Html.ActionLink("ViewProduct", "GetProduct")
+</div>

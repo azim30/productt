@@ -1,0 +1,32 @@
+﻿@model IEnumerable<product.Models.Product>
+
+@{
+    ViewBag.Title = "GetProduct";
+}
+
+<h2>GetProduct</h2>
+
+<table border="1" style="background-color:aqua">
+    <tr>
+        <th>ProductID</th>
+        <th>ProductName</th>
+        <th>ProductDesc</th>
+        <th>Manufacturer</th>
+        <th>Price</th>
+        <th>Category</th>
+    </tr>
+    @foreach (var m in Model)
+    {
+        <tr>
+            <td>@m.ProductID</td>
+            <td>@m.ProductName</td>
+            <td>@m.ProductDesc</td>
+            <td>@m.Manufacturer</td>
+            <td>@m.Price</td>
+            <td>@m.Category</td>
+        </tr>
+    }
+</table>
+<div>
+    @Html.ActionLink("InsertNew Product", "product")
+</div>
